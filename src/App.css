@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.card-item {
+  width: 1256px;
+  height: 772px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 325px);
+  grid-template-rows: 325px;
+  grid-gap: 15px;
+  padding: 20px;
+}
+
+.cardHeader {
+    display: grid;
+    grid-template-columns: 75px 250px;
+}
+
+.profile_image {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.nickname {
+  font-family: AppleSDGothicNeo;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.card-image img {
+  width: 268px;
+  height: 268px;
+  border-radius: 10px;
+}
+
+.card-subscribe {
+  margin-top: -35px;
+  margin-right: -228px;
+}
+
+p.filter {
+  width: 244px;
+  height: 19px;
+  font-family: AppleSDGothicNeo;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #424242;
+}
+
+.filter {
+  display: grid;
+  grid-template-columns: 25px 150px;
+  align-items: center;
+  padding: 20px;
+}
